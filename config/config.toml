@@ -1,0 +1,7 @@
+# HTTP Server
+[server]
+	Address     = ":8199"
+	ServerAgent = "calltrace"
+	LogPath     = "/tmp/log/calltrace"
+    RateInterval = 10
+    RateBurst = 100
